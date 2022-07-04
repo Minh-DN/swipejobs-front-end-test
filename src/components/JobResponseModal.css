@@ -1,0 +1,108 @@
+.job-response-modal__overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+
+.job-response-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  background-color: white;
+  height: 240px;
+  width: 350px;
+  border-radius: 5px;
+
+  padding: 7px;
+
+  z-index: 999;
+}
+
+.job-response-modal__close-icon {
+  float: right;
+  margin-left: auto;
+  font-size: 1.5rem;
+}
+
+.job-reponse-modal__message {
+  height: 90%;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.job-reponse-modal__header {
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-align: center;
+
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.job-reponse-modal__decline-failed-text {
+  font-size: 0.8rem;
+  font-weight: 400;
+  text-align: center;
+
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.job-reponse-modal__message button {
+  width: 150px;
+  height: 50px;
+  font-size: 1rem;
+  font-weight: 300;
+  
+  margin-bottom: 10px;
+}
+
+.job-response-modal__confirm-decline {
+  border-radius: 3px;
+  border: 1px solid red;
+  background-color: white;
+  color: red;
+}
+
+.job-response-modal__confirm-decline:hover {
+  background-color: red;
+  color: white;
+}
+
+.job-response-modal__reject-decline, 
+.job-reponse-modal__confirm-accept {
+  border-radius: 3px;
+  border: 1px solid #30D4AB;
+  background-color: white;
+  color: #30D4AB;
+}
+
+.job-response-modal__reject-decline:hover,
+.job-reponse-modal__confirm-accept:hover {
+  background-color: #30D4AB;
+  color: white;
+}
+
+.job-reponse-modal__go-back {
+  border-radius: 3px;
+  border: 1px solid #CACACA;
+  background-color: white;
+  color: #CACACA;
+}
+
+.job-reponse-modal__go-back:hover {
+  background-color: #CACACA;
+  color: white;
+}
