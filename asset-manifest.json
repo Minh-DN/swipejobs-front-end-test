@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/swipejobs-front-end-test/static/css/main.f244e057.css",
+    "main.js": "/swipejobs-front-end-test/static/js/main.e173cbb9.js",
+    "static/js/787.b97c5e20.chunk.js": "/swipejobs-front-end-test/static/js/787.b97c5e20.chunk.js",
+    "static/media/logo_text.png": "/swipejobs-front-end-test/static/media/logo_text.81119191582afe07bacd.png",
+    "index.html": "/swipejobs-front-end-test/index.html",
+    "main.f244e057.css.map": "/swipejobs-front-end-test/static/css/main.f244e057.css.map",
+    "main.e173cbb9.js.map": "/swipejobs-front-end-test/static/js/main.e173cbb9.js.map",
+    "787.b97c5e20.chunk.js.map": "/swipejobs-front-end-test/static/js/787.b97c5e20.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f244e057.css",
+    "static/js/main.e173cbb9.js"
+  ]
+}
